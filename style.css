@@ -1,0 +1,44 @@
+body{
+    background: #333;
+    color: #ccc;
+}
+
+nav img{
+    margin-left: 10px;
+}
+div.row img{
+    width: 100px;
+}
+
+#aboutSection{
+padding-top: 50px;
+}
+
+#photoSection img{
+    padding: 20px 10px;
+}
+
+#verbSection div{
+    height: 600px;
+}
+
+#verbSection li{
+    list-style: none;
+    padding: 10px;
+}
+
+#verbSection li:hover{
+    cursor: pointer;
+    font-size: 18px;
+    color: lightsteelblue;
+}
+
+#verbSection li:active, .on{
+    cursor: pointer;
+    font-size: 18px;
+    color: lightseagreen;
+}
+table, thead,td,tr{
+    color: #ccc;
+    /* border: 2px solid blue; */
+}
